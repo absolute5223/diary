@@ -73,7 +73,7 @@ body {
 
 .gallery__item {
     max-width: 330px;
-
+    position: relative;
 }
 
 .image {
@@ -100,3 +100,32 @@ body {
     font-size: 40px;
     color: white;
 }
+
+.images_buttons {
+    position: absolute;
+    right: 27px;
+    bottom: 24px;
+    display: flex;
+    gap: 21px;
+}
+
+.image__like {
+    width: 39px;
+    background-image: url("images/Like.svg");
+}
+
+.image__choosen {
+    width: 30px;
+    background-image: url("images/Choosen.svg");
+}
+
+.image__button {
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 32px;
+    cursor: pointer;
+}
+
